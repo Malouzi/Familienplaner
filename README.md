@@ -39,10 +39,16 @@ Dies erforderte die Implementierung einer Funktion zur Formatierung des Textes m
 Während dieses Projekts habe ich gelernt:
 - Wie man das `colors`-Modul verwendet, um farbigen Text in der Konsole anzuzeigen.
 - Wie wichtig es ist, Daten sauber zu formatieren, um eine lesbare und benutzerfreundliche Ausgabe zu gewährleisten.
-- Wie man zufällige Aufgabenverteilungen implementiert, sie sind nur noch nicht wirklich gleichmäßig und gerecht verteilt.
+- Wie man zufällige Aufgabenverteilungen implementiert, sie sind nur noch nicht wirklich gleichmäßig und gerecht verteilt bisher. Das muss noch überarbeitet werden.
+- Wie man mit dem Fischer-Yates Algorithmus die Elemente eines Arrays mischen kann:
+
+### Fischer-Yates-Algorithmus
+- Er beginnt am Ende und arbeitet sich bis zum Anfanf vor.
+- In jedem Schritt wird ein zufälliges Element aus den nicht gemischten Elementen eines Arrays ausgewählt und mit dem aktuellen getauscht.
+- Es handelt sich dabei um eine dekonstruierende Zuweisung (Destructuring Assignments).
 
 ## Was ich noch machen möchte
 
 - Aufgaben besser verteilen lassen. 
-
+- Tabelle so anpassen, dass sie automatisch grßer wird, wenn neue Persnen zugefügt werden.
 	
